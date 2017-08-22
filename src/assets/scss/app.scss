@@ -1,0 +1,75 @@
+@import 'settings';
+@import 'foundation-emails';
+
+.h-f-text{
+    font-size: 10px;
+    padding-bottom: 0 !important;
+    & a:hover{
+        color: $primary-color;
+        text-decoration: underline;
+    }
+}
+
+.primary-bg{
+	background-color: $primary-color;
+}
+
+.main-menu{
+    background-color: $primary-color;
+    
+    a{
+        color: white !important;
+        text-transform: uppercase;
+        font-size: 14px !important;
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+    
+}
+
+.no-pad{
+    padding: 0 !important;
+}
+
+.title{
+    color: #797979;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.txt{
+    font-size: 14px;
+    color: #797979;
+}
+
+.price{
+    color: $primary-color;
+}
+
+.white{
+    background: #fff;
+}
+
+.dec{
+    width: 20px !important;
+}
+
+.darkGray{
+    background: #565656 !important;
+}
+
+.title-h2{
+    color: #D95847;
+}
+
+.awesome{
+	text-transform: uppercase;
+}
+
+.pad-l-30{
+	padding-left: 30px !important;
+	padding-bottom: 5px !important;
+}
+
+// @import 'template/template';
